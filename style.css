@@ -1,0 +1,75 @@
+.sobremim{
+    display: flex;
+    justify-content:space-around;
+    height: 6vh;
+}
+
+.edna{
+    margin: -0;
+    margin-left: -70px;
+    height: 3vmin;
+}
+
+.profissao{
+    margin-right: 50px;
+    height: 12vh;
+}
+
+#menu-eu ul{
+    box-sizing: border-box;
+    list-style: none;
+    background-color:black;
+    display: flex;
+    width: 100%;
+    
+}
+.btn_entrar{
+    margin-right: 2px;
+    height: 4vh; /* Altura do botão*/
+    margin-top: 16px; /* margem do botão para cima */
+    color: #000;
+    background-color: white;
+    margin-right: 25px;
+    width: 5%;
+    border-radius: 5px;
+}
+
+.btn_entrar:hover{
+   background-color: aqua;
+   color: white;
+}
+
+
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.menu-eu ul li {
+display: inline;
+
+}
+
+#menu ul li{
+    text-align: left;
+    list-style: none;
+    justify-content: left;
+
+}
+
+#menu-eu ul li a{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+}
+
+#menu-eu ul li a:hover{
+    background-color: aqua;
+}
+#menu-eu ul li:last-child a {
+    float: right;
+    background-color: blue;
+}
